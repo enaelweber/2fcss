@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body class="px-md-5 mx-md-5 px-sm-3 mx-sm-3 px-2 mx-2 d-flex flex-column min-vh-100">
+
+	<header class="my-3">
+		<p class="h3 text-center">Enaël WEBER</p>
+		<nav class="p-2 rounded-pill d-flex column-gap-2">
+			<a href="/index.html" class="d-inline-block rounded-pill py-3 px-4">Accueil</a>
+			<div class="nav-select d-inline-block rounded-pill py-3 px-4 "><p class="m-0">Contact</p></div>
+		</nav>
+	</header>
+
+	<main class="flex-grow-1">
+		<form action="" method="post">
+			<div class="container-fluid mw-75">
+				<div class="row my-3 justify-content-center">
+					<div class="col-lg-4 col-6">
+						<div class="form-group">
+						<label for="first-name">Prénom</label>
+						<input type="text" class="form-control rounded-pill py-3" id="first-name" placeholder="Votre prénom" required>
+						</div>
+					</div>
+					<div class="col-lg-4 col-6">
+						<div class="form-group">
+						<label for="last-name">Nom de famille</label>
+						<input type="text" class="form-control rounded-pill py-3" id="last-name" placeholder="Votre nom" required>
+						</div>
+					</div>
+				</div>
+
+				<div class="row my-3 justify-content-center">
+					<div class="col-lg-9 col-12">
+						<div class="form-group">
+						<label for="email">Adresse e-mail</label>
+						<input type="email" class="form-control rounded-pill py-3" id="email" placeholder="Entrez votre adresse e-mail" required>
+						</div>
+					</div>
+				</div>
+
+				<div class="row my-3 justify-content-center">
+					<div class="col-lg-9 col-12">
+						<div class="form-group">
+						<label for="object">Objet</label>
+						<input type="text" class="form-control rounded-pill py-3" id="email" placeholder="Insérez un objet" required>
+						</div>
+					</div>
+				</div>
+
+				<div class="row my-3 justify-content-center">
+					<div class="col-lg-9 col-12">
+						<div class="form-group">
+						<label for="message">Votre message</label>
+						<textarea class="form-control rounded py-3" id="message" placeholder="Ecrivez ce que vous voulez" required></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row my-3 justify-content-center">
+					<div class="col-lg-9 col-12 d-flex justify-content-center">
+						<button type="submit" class="btn btn-pill rounded-pill text-white py-3 btn-custom w-75">Envoyer</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</main>
+
+	<footer class="d-flex justify-content-between mt-5 pt-5 mb-2">
+		<div><p>Créé par Enaël WEBER</p></div>
+		<div><p>Inspiré par <a href="https://www.figma.com/community/file/1310269010337969032">Joey Portfolio</a></p></div>
+	</footer>
+</body>
+</html>

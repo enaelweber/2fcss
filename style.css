@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+	font-family: Inter;
+	color: #1A0000;
+}
+
+h1 {
+	font-size: calc(1.625rem + 10vw);
+}
+
+p {
+	font-size: 20px;
+}
+
+h3::before {
+	content: "• ";
+	font-size: small;
+	vertical-align: middle;
+}
+
+.colored-box {
+	aspect-ratio: 148 / 125;
+	border-radius: 5%;
+}
+
+.btn-custom {
+	background-color: #1A0000;
+	border: 2px solid #1A0000;
+	display: block;
+}
+
+.btn-custom:hover {
+	background-color: #1A0000;
+	text-decoration: underline;
+	display: block;
+}
+
+.btn-custom:active {
+	background-color: white;
+	display: block;
+}
+
+nav{
+	background-color: #1A0000;
+	font-size: 20px;
+	width: fit-content;
+	margin-inline: auto;
+	color: white;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover{
+	background-color: white;
+	color: #1A0000;
+}
+
+.nav-select {
+	color: #1A0000;
+	background-color: white;
+}
+
+footer p {
+	font-size: 14px;
+}
+
+.contact {
+	color: white;
+	background-color: #1A0000;
+	width: 272px;
+}
+
+.contact:hover {
+	color: #1A0000;
+	background-color: white;
+}
